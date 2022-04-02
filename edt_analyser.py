@@ -7,7 +7,7 @@ import os
 input_path = r"C:\Users\Adrien\Desktop\python\EDT_OCR\images"
 output_path = r"C:\Users\Adrien\Desktop\python\EDT_OCR\output"
 
-target_text = "B1"
+target_text = input("target text: ")
 
 tpath = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 t.tesseract_cmd = tpath
@@ -31,7 +31,7 @@ def analyse(input_path, target_text):
 
         #modified.show()
         text = t.image_to_string(img, config ='--oem 1 --psm 12')
-        print(text, sep= ' ')
+        #print(text, sep= ' ')
         
         if target_text in text:
             print(image_path)
