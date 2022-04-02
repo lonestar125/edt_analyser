@@ -7,5 +7,6 @@ tesseract
 pytesseract
 opencv-python
 os-sys
+Pillow
 
 make sure to set input and output paths accordingly and modify the tesseract install location if necessary (windows default currently set)
