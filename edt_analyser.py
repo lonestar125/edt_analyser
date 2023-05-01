@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 import os
 
-input_path = r"C:\Users\Adrien\Desktop\python\EDT_OCR\images"
-output_path = r"C:\Users\Adrien\Desktop\python\EDT_OCR\output"
+input_path = r""
+output_path = r""
 
 target_text = input("target text: ")
 
